@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072518962249",
+    "project_id": "maria-amiga",
+    "storage_bucket": "maria-amiga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072518962249:android:62137f0124f61a34d77398",
+        "android_client_info": {
+          "package_name": "com.mariaamigateam.mariaamiga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072518962249-t4h80otn5o8i6ahs67k54iljse1ljv06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZB48A_I8r4lYIYHUvr302z_oZZvxCrlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072518962249-t4h80otn5o8i6ahs67k54iljse1ljv06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
