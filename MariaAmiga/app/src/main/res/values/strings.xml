@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Maria Amiga</string>
+    <string name="title_activity_calendario_emocional">calendarioEmocional</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="logo_maria_amiga">Logo maria amiga</string>
+    <string name="textoSplash">María Amiga\nCargando...</string>
+    <string name="fraseMenu">Frase del día</string>
+    <string name="perfilMenu">Mi perfil</string>
+    <string name="agendamientoMenu">Agendamiento</string>
+    <string name="menu_principal">MENU PRINCIPAL</string>
+    <string name="perfil">Mi perfil</string>
+    <string-array name="especialistas">
+        <item>Nicolas Fonseca</item>
+        <item>Laura Pinilla</item>
+    </string-array>
+    <string-array name="especialidad">
+        <item>Terapia contra la ansiedad</item>
+        <item>Terapia de pareja</item>
+    </string-array>
 </resources>

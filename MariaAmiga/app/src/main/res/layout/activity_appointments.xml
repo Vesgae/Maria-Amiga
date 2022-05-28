@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".appointmentsActivity">
+
+    <TextView
+        android:id="@+id/tituloAgendamientos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis agendamientos"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_weight="0.3"/>
+
+    <ListView
+        android:id="@+id/listaAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_weight="0.3" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backAgendaBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Regresar" />
+
+        <Button
+            android:id="@+id/nuevaCitaBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Nueva cita" />
+    </LinearLayout>
+
+</LinearLayout>

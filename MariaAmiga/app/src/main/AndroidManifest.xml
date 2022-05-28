@@ -14,7 +14,37 @@
         android:theme="@style/Theme.MariaAmiga"
         tools:targetApi="31">
         <activity
+            android:name=".welcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".appointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phraseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pleasuresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".completeRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
